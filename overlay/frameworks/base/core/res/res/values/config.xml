@@ -185,6 +185,9 @@
         <item>1</item>
     </integer-array>
 
+    <!-- Component name of the default wallpaper. This will be ImageWallpaper if not specified -->
+    <string name="default_wallpaper_component">com.android.phasebeam/.PhaseBeamWallpaper</string>
+
     <!-- crespo doesn't handle this blur effect very quickly. -->
     <bool name="config_sf_slowBlur">true</bool>
 
